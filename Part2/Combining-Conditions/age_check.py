@@ -1,4 +1,7 @@
 age = int(input("What is your age?"))
+text = input("What is your age?")
+
+number = 0
 
 if age > 4:
     print(f"Ok, you're {age} years old")
