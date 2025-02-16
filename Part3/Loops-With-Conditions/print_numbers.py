@@ -1,7 +1,5 @@
-start = 4
+start = 2
 
 while start <= 30:
     print(start)
     start += 2
-
-print("etc...")
