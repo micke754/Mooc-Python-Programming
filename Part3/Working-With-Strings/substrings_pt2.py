@@ -1,8 +1,9 @@
 message = input("Please type in a string: ")
 
-message[:1]
+reversed_message = message[::-1]
 
-counter = 1
-while counter <= len(message):
-    print(message[:counter])
-    counter += 1
+counter = len(message)
+
+while counter >= 0:
+    print(message[counter::])
+    counter -= 1
